@@ -1,11 +1,11 @@
 {
     "mongodb": {
-        "url": "mongodb://localhost:27017/customerdb"
+        "url": "mongodb://mongo:27017/tododb"
     },
 
     "logs": {
-        "dir": "/var/log/customer-api",
-        "filename": "customer-api.log",
+        "dir": "/var/log/todo-api",
+        "filename": "todo-api.log",
         "maxFiles": 10,
         "console": true
     },

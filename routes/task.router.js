@@ -52,7 +52,7 @@ router.delete('/:id', function (req, res, next) {
 router.put('/:id', function (req, res, next) {
     var task = req.body;
     var id = req.params.id;
-    Customer.update({
+    Task.update({
         id: id
     }, task, function (err, result) {
         res.status(200).send();
