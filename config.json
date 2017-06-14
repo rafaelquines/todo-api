@@ -1,6 +1,6 @@
 {
     "mongodb": {
-        "url": "mongodb://mongo:27017/tododb"
+        "url": "mongodb://localhost:27017/tododb"
     },
 
     "logs": {

@@ -6,6 +6,7 @@ const uuid = require('uuid/v4');
 
 
 router.get('/:id*?', function (req, res) {
+    console.log('Headers: ' + JSON.stringify(req.headers, null, 4));
     if (req.params.id) {
         Task.find({
             id: req.params.id
